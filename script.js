@@ -24,6 +24,8 @@ function validateForm(){
         document.getElementById('passwordError').style.display = 'block';
         return false;
     }
+
+    console.log("hello");
     
 
     return true;
